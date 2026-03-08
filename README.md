@@ -1,81 +1,77 @@
-# Rag-project
+```markdown
+# 🦾 Resume_Rag_Screening
 
-# 🦾 Rag-project
-
-Welcome to **Rag-project** – an open-source Retrieval-Augmented Generation (RAG) system that leverages powerful language models and vector search to answer questions based on uploaded resumes! This project demonstrates how to build a simple QA application using Gradio, FAISS, and Sentence Transformers, making it easy to interact with your own documents.
+Welcome to **Resume_Rag_Screening** – an open-source Retrieval-Augmented Generation (RAG) system that leverages powerful language models and vector search to answer questions based on uploaded resumes! This project demonstrates how to build a simple QA application using Gradio.
 
 ---
 
 ## 🚀 Introduction
 
-**Rag-project** enables users to upload a resume (PDF), which is then processed and indexed for semantic search. By integrating a RAG pipeline, the system retrieves relevant context from the uploaded resume and generates accurate answers to user queries. This approach combines the strengths of information retrieval and language models, resulting in more reliable and context-aware answers.
+Resume_Rag_Screening is designed to streamline resume screening and question-answering processes by combining the power of language models and efficient vector search. Upload resumes in PDF format, ask custom questions related to the candidate, and receive context-aware answers generated from the resume content.
 
 ---
 
 ## ✨ Features
 
-- 📄 **Resume Upload:** Easily upload PDF resumes for processing.
-- 🧩 **Automatic Chunking:** Resumes are split into manageable text chunks for better context retrieval.
-- 🔍 **Semantic Search:** Utilizes FAISS and Sentence Transformers for efficient, relevant search.
-- 💬 **QA Chatbot:** Ask questions and receive answers based on the uploaded resume.
-- 🌐 **Gradio Interface:** User-friendly web interface for seamless interaction.
+- **Resume Upload:** Easily upload PDF resumes for processing.
+- **Chunking & Embedding:** Automatic chunking of resume content and embedding using SentenceTransformers.
+- **Vector Search:** Fast context retrieval powered by FAISS vector indexing.
+- **QA Pipeline:** Answers questions based on resume content using advanced RAG techniques.
+- **Gradio Interface:** Simple and interactive web app for end-to-end screening.
 
 ---
 
-## ⚙️ Installation
+## ⚡ Installation
 
-1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/yourusername/rag-project.git
-    cd rag-project
-    ```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mathi7585/Resume_Rag_Screening.git
+   cd Resume_Rag_Screening
+   ```
 
-2. **Create a Virtual Environment (Recommended)**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
+2. **Create a virtual environment (optional but recommended):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-3. **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
+3. **Install required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. **Set Environment Variables**
-    - Create a `.env` file in the root directory.
-    - Add your OpenRouter API key:
-      ```
-      OPENROUTER_API_KEY=your_openrouter_api_key_here
-      ```
+4. **Set up environment variables:**
+   - Create a `.env` file in the project root.
+   - Add your OpenRouter API key:
+     ```
+     OPENROUTER_API_KEY=your_api_key_here
+     ```
 
 ---
 
-## 🛠 Usage
+## 🛠️ Usage
 
-1. **Run the Application**
-    ```bash
-    python app.py
-    ```
-
-2. **Open the Interface**
-    - Follow the Gradio link in your terminal (usually `http://127.0.0.1:7860`).
-
-3. **Interact**
-    - **Upload Resume:** Click to upload your PDF resume.
-    - **Ask Questions:** Enter any question about the uploaded resume and receive contextual answers!
+1. **Start the Gradio App:**
+   ```bash
+   python app.py
+   ```
+2. **Open the Gradio interface in your browser.**
+3. **Upload a resume (PDF format).**
+4. **Ask questions related to the candidate's experience, skills, etc.**
+5. **Receive context-driven answers instantly!**
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Please follow these steps:
+Contributions are welcome! To get started:
 
-1. Fork this repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes.
+4. Push to the branch and open a Pull Request.
+
+Please review the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
@@ -85,10 +81,32 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Made with ❤️ for the AI community!**
+## 📁 Project Structure
+
+```
+Resume_Rag_Screening/
+├── app.py
+├── rag_pipeline.py
+├── resume_loader.py
+├── README.md
+├── requirements.txt
+└── .env
+```
+
+---
+
+## 🙋‍♂️ Support
+
+For questions or support, please open an issue or contact the maintainer.
+
+---
+
+**Happy Screening!** 🦾
+```
+
 
 ## License
 This project is licensed under the **MIT** License.
 
 ---
-🔗 GitHub Repo: https://github.com/mathi7585/Rag-project
+🔗 GitHub Repo: https://github.com/mathi7585/Resume_Rag_Screening
