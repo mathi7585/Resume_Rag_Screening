@@ -110,4 +110,3 @@ This project is licensed under the **MIT** License.
 
 ---
 🔗 GitHub Repo: https://github.com/mathi7585/Resume_Rag_Screening
-
