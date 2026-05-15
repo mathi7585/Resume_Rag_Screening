@@ -62,7 +62,6 @@ Resume_Rag_Screening is designed to streamline resume screening and question-ans
 5. **Receive context-driven answers instantly!**
 
 ---
-
 ## 🤝 Contributing
 
 Contributions are welcome! To get started:
