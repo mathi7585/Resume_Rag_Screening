@@ -21,7 +21,6 @@ Resume_Rag_Screening is designed to streamline resume screening and question-ans
 - **Gradio Interface:** Simple and interactive web app for end-to-end screening.
 
 ---
-
 ## ⚡ Installation
 
 1. **Clone the repository:**
