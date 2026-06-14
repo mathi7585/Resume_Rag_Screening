@@ -73,7 +73,6 @@ Contributions are welcome! To get started:
 Please review the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
