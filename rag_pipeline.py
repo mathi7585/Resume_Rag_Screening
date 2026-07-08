@@ -5,7 +5,6 @@ from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 
 load_dotenv()
-
 # Load embedding model
 EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2")
 
