@@ -5,7 +5,6 @@ from rag_pipeline import (
     retrieve_context,
     generate_answer
 )
-
 def upload_resume(pdf):
     """
     Handle resume upload and FAISS indexing
