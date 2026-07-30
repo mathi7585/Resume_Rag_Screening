@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 load_dotenv()
 # Load embedding model
 EMBED_MODEL = SentenceTransformer("all-MiniLM-L6-v2")
-
 # OpenRouter API key
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
